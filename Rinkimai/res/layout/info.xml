@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/panele4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+      android:background="@drawable/p" >
+
+    <Button
+        android:id="@+id/back_b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back" />
+
+    <LinearLayout
+        android:id="@+id/panele3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/variantas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pavadinimas"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/variantai_first_button" >
+
+
+        <TextView
+            android:id="@+id/info"
+            android:gravity="center_vertical|center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/user_files_icon"
+            android:text="Papildomos info nera."
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ff0000" />
+
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/vote"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote" />
+    
+    <TextView
+        android:id="@+id/info2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#D9DEDA"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

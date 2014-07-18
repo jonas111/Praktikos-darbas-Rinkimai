@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rinkimai.pro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/election"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="rinkimai.pro.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="MainTabs" />
+        <activity android:name="Tab_Home"></activity>
+        <activity android:name="Tab_Vote"></activity>
+        <activity android:name="Tab_Info"></activity>
+        <activity android:name="Tab_Stats"></activity>
+        <activity android:name="Tab_Me"></activity>
+        <activity android:name="variantai"></activity>
+        <activity android:name="info"></activity>
+        <activity android:name="Register"></activity>
+        <activity android:name="rinkimai.pro.FragmentSupport"
+            android:label="@string/app_name"></activity>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,13 @@
+<LinearLayout 
+    android:layout_height="match_parent"
+     android:layout_width="match_parent"
+      tools:context="rinkimai.pro.MainActivity"
+       xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+         android:background="@drawable/p">
+ 
+    <fragment android:id="@+id/fragment1"
+         android:layout_height="match_parent"
+          android:layout_width="match_parent"
+           android:name="rinkimai.pro.FragmentListView">
+</fragment></LinearLayout>

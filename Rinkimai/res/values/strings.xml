@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Rinkimai</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="rinkimai">Rinkimai: </string>
+     <string name=" balsavote_uz">Jus balsavote uz  </string>
+     
+	  <color name="tab_meniu_selected">#B4BDC6  </color>
+	  <color name="tab_meniu_default" >#FBFBFB  </color>
+	
+	<string-array name = "arrs">
+	
+	    <item>vienas</item>
+	    <item>du</item>
+	    <item>trys</item>
+	   
+	 
+	</string-array>
+	
+	
+	
+</resources>
+
